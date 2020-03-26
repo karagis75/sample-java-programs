@@ -2,8 +2,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 class CountWords{
   public static void main(String[] args) {
-   // System.out.println("Hello world!");
-     System.out.println(" Please enter the input string :" );
+        System.out.println(" Please enter the input string :" );
         Scanner in = new Scanner (System.in);
         String s=in.nextLine();
         countnoofwords(s);
